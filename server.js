@@ -14,8 +14,8 @@ const db = knex({
     connection: {
         host : 'localhost',
         user : 'postgres',
-        password : '',
-        database : ''
+        password : '', // intentionally left blank
+        database : '' // intentionally left blank
     }
 });
 
